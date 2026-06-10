@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PerFail 2027</title>
+
+    <!-- favicon -->
+    <link href="img/pc2027-icon.webp" rel="icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="css/academicons.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <div class="header d-flex align-items-center">
+        <div class="text-center w-100 header-content">
+            <h1>PerFail 2027</h1>
+            <p class="lead">6<sup>th</sup> International Workshop on Negative Results in Pervasive Computing</p>
+            <p class="lead co-located">Co-located with <a href="https://www.percom.org/" target="_blank">IEEE PerCom
+                    2027</a></p>
+            <p class="lead ws-header-info">
+                <span class="ws-date me-5"><i class="fa-solid fa-calendar-days"></i> March, 2027</span>
+                <span class="ws-location"><i class="fa-solid fa-map-pin"></i> Goa, India</span>
+            </p>
+            <p class="lead quote">
+                <i>“Learn from the mistakes of others. You can’t live long enough to make them all yourself.”</i><br>
+                - Eleanor Roosevelt
+            </p>
+        </div>
+    </div>
+
+    <nav class="navbar sticky-top navbar-expand-xl">
+        <div class="container">
+            <a class="navbar-brand" href="#">PerFail 2027</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="navbar-bars fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-intro">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-cfp">Call for Papers</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#section-program">Program</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-registration">Register</a>
+                    </li>
+                    <li class="nav-item dropdown d-block d-xl-none">
+                        <a class="nav-link" href="#section-committees">Committees</a>
+                    </li>
+                    <li class="nav-item dropdown d-none d-xl-block">
+                        <a class="nav-link dropdown-toggle" href="#section-committees" role="bottom"
+                            data-bs-toggle="dropdown" id="committeeDropdown" aria-expanded="false">
+                            Committees
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="committeeDropdown">
+                            <li><a class="dropdown-item" href="#subsection-oc">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="#subsection-sc">Steering Committee</a></li>
+                            <li><a class="dropdown-item" href="#subsection-tpc">Technical Program Committee</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-previous">Previous Editions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-wrapper">
+        <section id="section-intro" class="section-wrapper about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>ABOUT</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--                    <div class="col-md-8">-->
+                    <p class="lead text-block">
+                        Not all research leads to fruitful results, trying new ways or methods may surpass the state of
+                        the art, but sometimes the hypothesis is not proven or the improvement is insignificant. But
+                        failure to succeed is not failure to progress and this workshop aims to create a platform for
+                        sharing insights, experiences, and lessons learned when conducting research in the area of
+                        pervasive computing.
+                    </p>
+                    <p class="lead text-block">
+                        While the direct outcome of negative results might not contribute much to the field, the wisdom
+                        of hindsight could be a contribution itself, such that other researchers could avoid falling
+                        into similar pitfalls. We consider negative results to be studies that are run correctly (in the
+                        light of the current state of the art) and in good practice, but fail in terms of proving of the
+                        hypothesis or come up with no significance. The “badness” of the work can also come out as a
+                        properly but unfittingly designed data collection, or (non-trivial) lapses of hindsight
+                        especially in measurement studies.
+                    </p>
+                    <p class="lead text-block">
+                        We took the insights and discussion from last year and wrote a paper about the collected
+                        information. You can read the published manuscript in IEEE Pervasive Computitng <a
+                            href="https://ieeexplore.ieee.org/document/10148650" target="_blank">here</a>.
+                    </p>
+                    <p class="lead text-block">
+                        PerFail also has been featured in the Nature feature article "Illuminating 'the ugly side of
+                        science': fresh incentives for reporting negative results".
+                        You can read the article <a href="https://www.nature.com/articles/d41586-024-01389-7"
+                            target="_blank">here</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- .about-event -->
+
+        <section id="section-cfp" class="section-wrapper cfp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>CALL FOR PAPERS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--                    <div class="col-md-8">-->
+                    <p class="lead text-block">
+                        The papers of this workshop should highlight lessons learned from the negative results. The main
+                        outcome of the workshop is to share experiences so that others avoid the pitfalls that the
+                        community generally overlooks in the final accepted publications. All areas of <b>pervasive
+                            computing</b>, <b>networking</b> and <b>systems research</b> are considered. While we take a
+                        very broad view of “negative results”, submissions based on opinions and non-fundamental
+                        circumstances (e.g. coding errors and “bugs”) are not in scope of the workshop as they do not
+                        indicate if the approach (or hypothesis) was bad.
+                    </p>
+                    <p class="lead">
+                        The main topics of interests include (but are not limited to):
+                    </p>
+                    <ol>
+                        <li>Studies with unconvincing results which could not be verified (e.g. due to lack of datasets)
+                        </li>
+                        <li>Underperforming experiments due to oversights in system design, inadequate/misconfigured
+                            infrastructure, etc.</li>
+                        <li>Research studies with setbacks resulting in lessons learnt and acquired hindsights (e.g.
+                            hypothesis with too limiting or too broad assumptions)</li>
+                        <li>Unconventional, abnormal, or controversial results that contradict expectations of the
+                            community</li>
+                        <li>Unexpected problems affecting publications, e.g. ethical concerns, institutional policy
+                            breaches, etc.</li>
+                        <li>“Non-publishable” or “hard-to-publish” side-outcomes of the study, e.g . mis-trials of
+                            experiment methodology/design, preparations for proof-of-correctness of results, etc.</li>
+                    </ol>
+                    <p class="lead text-block">
+                        We also welcome submissions from experienced researchers that recounts post-mortem of
+                        experiments or research directions they have failed in the past (e.g. in a story-based format).
+                        With this workshop, our aim is to normalize the negative outcomes and inherent failures while
+                        conducting research in pervasive computing, systems and networking, and provide a complementary
+                        view to all the success stories in these fields.
+                    </p>
+                </div>
+
+                <div class="dates row" style="padding-top: 2em">
+                    <div style="text-align: center">
+                        <h2>Important Dates*</h2>
+                    </div>
+
+                    <div class="dates-text col-12 col-sm-6 col-lg-5">
+                        <b>Paper Submission:</b>
+                    </div>
+                    <div class="dates-date col-12 col-sm-6 col-lg-4">
+                        November 17, 2026
+                    </div>
+                    <div class="dates-filler col-sm-6"></div>
+                    <div class="dates-cal col-12 col-sm-6 col-lg-3">
+                        <div class="download-icon-text">
+                            (add to
+                            <a href="ics/paper-submission.ics" data-bs-toggle="tooltip" data-bs-title=".ics"
+                                download><i class="fa-solid fa-calendar-days download-icon"></i></a> or
+                            <a href="http://www.google.com/calendar/render?action=TEMPLATE&text=PerFail+2027+Paper+Submission+Deadline&dates=20251207/20251207&trp=false&sprop=&sprop=name:"
+                                target="_blank" rel="nofollow"><i class="fa-brands fa-google"
+                                    aria-hidden="true"></i></a>
+                            )
+                        </div>
+                    </div>
+
+                    <div class="dates-text col-12 col-sm-6 col-lg-5">
+                        <b>Author Notification:</b>
+                    </div>
+                    <div class="dates-date col-12 col-sm-6 col-lg-4">
+                        January 8, 2027
+                    </div>
+                    <div class="dates-filler col-sm-6"></div>
+                    <div class="dates-cal col-12 col-sm-6 col-lg-3">
+                        <div class="download-icon-text">
+                            (add to
+                            <a href="ics/author-notification.ics" download><i
+                                    class="fa-solid fa-calendar-days download-icon"></i></a> or
+                            <a href="http://www.google.com/calendar/render?action=TEMPLATE&text=PerFail+2027+Author+Notification&dates=20270115/20270115&trp=false&sprop=&sprop=name:"
+                                target="_blank" rel="nofollow"><i class="fa-brands fa-google"
+                                    aria-hidden="true"></i></a>
+                            )
+                        </div>
+                    </div>
+
+                    <div class="dates-text col-12 col-sm-6 col-lg-5">
+                        <b>Camera-ready Submission:</b>
+                    </div>
+                    <div class="dates-date col-12 col-sm-6 col-lg-4">
+                        TBD
+                    </div>
+                    <div class="dates-filler col-sm-6"></div>
+                    <div class="dates-cal col-12 col-sm-6 col-lg-3">
+                        <div class="download-icon-text">
+                            (add to
+                            <a href="ics/camera-ready.ics" download><i
+                                    class="fa-solid fa-calendar-days download-icon"></i></a> or
+                            <a href="http://www.google.com/calendar/render?action=TEMPLATE&text=PerFail+2027+Camera-ready+Submission&dates=20270202/20270202&trp=false&sprop=&sprop=name:"
+                                target="_blank" rel="nofollow"><i class="fa-brands fa-google"
+                                    aria-hidden="true"></i></a>
+                            )
+                        </div>
+                    </div>
+
+                    <div class="dates-text col-12 col-sm-6 col-lg-5">
+                        <b>Workshop Date:</b>
+                    </div>
+                    <div class="dates-date col-12 col-sm-6 col-lg-4">
+                        March, 2027
+                    </div>
+                    <div class="dates-filler col-sm-6"></div>
+                    <div class="dates-cal col-12 col-sm-6 col-lg-3">
+                        <div class="download-icon-text">
+                            (add to
+                            <a href="ics/workshop.ics" download><i
+                                    class="fa-solid fa-calendar-days download-icon"></i></a> or
+                            <a href="" rel="nofollow"><i class="fa-brands fa-google" aria-hidden="true"></i></a>
+                            )
+                        </div>
+                    </div>
+                    <p class="lead" style="text-align: center;">* All dates are AoE (check it <a
+                            href="https://time.is/Anywhere_on_Earth" target="_blank">here</a>).</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- .cfp-event -->
+
+        <section id="section-submission" class="section-wrapper about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>SUBMISSION GUIDELINES</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="lead text-block">
+                        Papers should present novel perspectives within the scope of the workshop: negative
+                        results, lessons learned, and other fruitful “failure” stories. Papers must be in PDF format and
+                        contain 6 pages maximum (including references).
+                        Papers should contain names and affiliations of the authors (not blinded). All papers must be
+                        typeset
+                        in double-column IEEE format using 10pt fonts on US letter paper, with all fonts embedded.
+                        Submissions must be made via EasyChair. The IEEE LaTeX and Microsoft Word templates, as well as
+                        related information, can be found at the IEEE Computer Society <a
+                            href="https://www.ieee.org/conferences/publishing/templates.html"
+                            target="_blank">website</a>.
+                    </p>
+                    <p class="lead text-block">
+                        PerFail will be held in conjunction with IEEE Percom 2027. All accepted papers will be included
+                        in the Percom workshops proceedings and included and indexed in the IEEE digital library Xplore.
+                        At least one author will be required to have a full registration in the Percom 2027 conference
+                        and present the paper during the workshop <b>in person</b>. There will be no
+                        workshop-only registration.
+                    </p>
+                    <p class="lead">
+                        <b>Submission link:</b> TBD
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-registration" class="section-wrapper registration">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>REGISTRATION</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="lead text-block">
+                        <b>Each accepted workshop paper requires a full PerCom registration (no registration is
+                            available for workshops only).</b>
+                        Otherwise, the paper will be withdrawn from publication.
+                        The authors of all accepted papers must guarantee that their paper will be presented at the
+                        workshop.
+                        Papers not presented at the workshop will be considered as a "<b>no-show</b>" and it will <b>not
+                            be included in the proceedings</b>.
+                    </p>
+                    <p class="lead">
+                        <b>Registration link:</b> <a href="https://percom.org/registration-instructions/" target="_blank">here</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-committees" class="section-wrapper team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>COMMITTEES</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="subsection-oc" class="section-title">
+                            <h1>Organizing Committee</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-4">
+                        <figure class="thumbnail">
+                            <a href="https://ellapeltonen.wordpress.com/" target="_blank"><img
+                                    src="img/committee/ellaPeltonen.jpg" class="img-responsive" alt="Image"></a>
+                            <figcaption class="caption text-center">
+                                <h3>Ella Peltonen
+                                    <small>University of Oulu</small>
+                                </h3>
+                                <ul class="social-links">
+                                    <li><a href="https://twitter.com/Ella_Peltonen" target="_blank"><i
+                                                class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <figure class="thumbnail">
+                            <a href="https://maltejosten.github.io/" target="_blank"><img src="img/committee/josten.jpg"
+                                    class="img-responsive" alt="Image"></a>
+                            <figcaption class="caption text-center">
+                                <h3>Malte Josten
+                                    <small>University of Duisburg-Essen</small>
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <figure class="thumbnail">
+                            <a href="https://vs.uni-due.de/en/person/zdankin/" target="_blank"><img
+                                    src="img/committee/Peter-Zdankin.jpeg" class="img-responsive" alt="Image"></a>
+                            <figcaption class="caption text-center">
+                                <h3>Peter Zdankin
+                                    <small>University of Duisburg-Essen</small>
+                                </h3>
+                                <ul class="social-links">
+                                    <li><a href="https://twitter.com/PZdankin" target="_blank"><i
+                                                class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <figure class="thumbnail">
+                            <a href="https://tanyashreedhar.github.io/" target="_blank"><img
+                                    src="img/committee/tanya.jpeg" class="img-responsive" alt="Image"></a>
+                            <figcaption class="caption text-center">
+                                <h3>Tanya Shreedhar
+                                    <small>TU Delft</small>
+                                </h3>
+                                <ul class="social-links">
+                                    <li><a href="https://twitter.com/tanyashreedhar" target="_blank"><i
+                                                class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="subsection-sc" class="section-title">
+                            <h1>Steering Committee</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-4">
+                        <figure class="thumbnail">
+                            <a href="https://www.nitindermohan.com/" target="_blank"><img
+                                    src="img/committee/nitinder.jpeg" class="img-responsive" alt="Image"></a>
+                            <figcaption class="caption text-center">
+                                <h3>Nitinder Mohan
+                                    <small>TU Delft</small>
+                                </h3>
+                                <ul class="social-links">
+                                    <li><a href="https://twitter.com/nitinder_mohan" target="_blank"><i
+                                                class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="subsection-tpc" class="section-title">
+                            <h1>Technical Program Committee</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-center">
+                    TBD
+                </div>
+            </div>
+        </section>
+
+        <section id="section-previous" class="section-wrapper about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>PREVIOUS EDITIONS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row prev-editions text-center">
+                    <div class="col-12 col-lg-6"><a href="https://perfail-workshop.github.io/2022/">1st PerFail 2022</a></div>
+                    <div class="col-12 col-lg-6"><a href="https://perfail-workshop.github.io/2023/">2nd PerFail 2023</a></div>
+                    <div class="col-12 col-lg-6"><a href="https://perfail-workshop.github.io/2024/">3rd PerFail 2024</a></div>
+                    <div class="col-12 col-lg-6"><a href="https://perfail-workshop.github.io/2025/">4th PerFail 2025</a></div>
+                    <div class="col-12 col-lg-6"><a href="https://perfail-workshop.github.io/2026/">5th PerFail 2026</a></div>
+                </div>
+            </div>
+        </section>
+        <!-- .previous editions -->
+
+        <footer class="footer">
+            <div class="copyright-section">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="copytext text-center">
+                            &copy; PerFail 2027. All rights reserved<br>
+                            Banner image by: <a href="https://hippie-inheels.com">hippe-inheels.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- #main-wrapper -->
+
+
+    <!-- jquery -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!--<script src="js/one-page-nav.js"></script>-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
