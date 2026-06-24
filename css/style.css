@@ -1,7 +1,7 @@
 
 :root {
-    --primary-color: #f9b332;
-    --secondary-color: #2054a1;
+    --primary-color: #FF6B35;
+    --secondary-color: #0F766E;
     --contrast-color: white;
     --link-color: var(--primary-color);
     --link-hover-color: var(--secondary-color);
@@ -134,6 +134,10 @@ ul {
     color: var(--primary-color);
 }
 
+.navbar-brand:hover {
+    color: var(--contrast-color);
+}
+
 .navbar {
     border-radius: 0;
     background: var(--secondary-color);
@@ -146,6 +150,7 @@ ul {
 
 .navbar-nav {
     text-align: center;
+     --bs-navbar-active-color: var(--primary-color);
 }
 
 .navbar-collapse {
@@ -160,12 +165,10 @@ ul {
     text-transform: uppercase;
 }
 
-.nav-link:hover {
-    color: var(--accent-color);
-    background: transparent;
-}
-
-.nav-link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: var(--primary-color);
     background: transparent;
 }
 
@@ -195,6 +198,7 @@ ul {
 
 .dropdown-item:hover {
     background-color: var(--primary-color);
+    color: var(--contrast-color);
 }
 
 .header {
